@@ -17,7 +17,7 @@ from utils.torch_utils import select_device, load_classifier, time_synchronized,
 
 def detect(source, weights,view_img, imgsz,trace, conf_thresh=0.4, save_img=False, save_txt=False):
     webcam = source.isnumeric() or source.endswith('.txt') or source.lower().startswith(
-        ('rtsp://', 'rtmp://', 'http://', 'https://'))
+        ('rtsp://', 'rtmp://', 'http://', 'https://', 'www.'))
     parser = argparse.ArgumentParser()
     parser.add_argument('--iou-thres', type=float, default=0.45, help='IOU threshold for NMS')
     parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
