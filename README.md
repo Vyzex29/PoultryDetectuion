@@ -39,5 +39,7 @@ My trained models are available here:
  - Yolov7tiny as base: https://drive.google.com/file/d/1uReXOLnNa5VBZbdG2V_wUuIItCcdQJ3o/view?usp=sharing
  - Yolov7 regular as base: https://drive.google.com/file/d/19oOh4G37N6xURT_tMED4KQ3KAafyAzgq/view?usp=share_link
 
+You can download them and place them in yolov7model/trainedModels, which then can be utilized in the main app.
+
 ## Used Dataset for training
 Image set: https://drive.google.com/file/d/1tsyVf1yME5edXBDtj9cOpiXxSWfYx9f_/view?usp=share_link
